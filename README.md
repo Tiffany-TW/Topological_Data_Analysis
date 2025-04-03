@@ -14,5 +14,6 @@ When it comes to dimensionality reduction methods, PCA, t-SNE, and manifold lear
 * **Connections to machine learning methods**
 * **Visualization**: TDA allow us to visualize high-dimensional data in low dimensional image without projecting data into low dimensional space.
 
-## Ref
+## Reference
 1. Uray, M., Giunti, B., Kerber, M., & Huber, S. (2024). Topological Data Analysis in smart manufacturing: State of the art and future directions. Journal of Manufacturing Systems, 76, 75-91.
+2. [Carlsson, G. (2009). Topology and data. Bulletin of the American Mathematical Society, 46(2), 255-308.](/paper%20reading/carlsson.md)
