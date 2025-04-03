@@ -1,8 +1,9 @@
-# Topology and Data
-## Carlsson 2009
+# Paper Title: Topology and Data
+## Author: Carlsson 2009
 ### Section 1. Introduction
 #### Study Notes
-* The mathematical formalism which has been developed for incorporating geometric and topological techniques deals with point clouds, ie. finite sets of points equipped with a distance function.
+* *...The mathematical formalism which has been developed for incorporating geometric and topological techniques deals with point clouds, ie. finite sets of points equipped with a distance function.*  
+* *...The relationships which are useful involve continuous maps between the different geometric objects, and therefore become a manifestation of the notion $functoriality$, i.e, the notion that invariants should be related not just to objects being studied, but also the maps between these objects.*
 #### Takeaways
 The author attempted to approach big data from a topological perspective. Due to the ever-changing nature of data, high-dimensional and noisy data present more frequently than ever. In his opinion, methods inspired by topology can complement the limitations of geometric approaches. The followings are limitations for geometric methods and advantages of topological methods:
 
@@ -11,7 +12,7 @@ For most geometric approaches, such as t-SNE and maniflod learning, it is necess
 * **Coordinates are not natural**  
 In physical world, coordinates are naturally defined as long as we are given the related information. However, even for data that could be expressed as the form of vectors, the data may not be embedded into any natural coordinate system. Take DNA sequences for example. For a DNA sequence with 10 nucleotides, say "ATGAACCTGT", it can be expressed in the form of a vector: [A, T, G, A, A, C, C, T, G, T]. But in which coordinate system can it fit naturally and intuitively? As a result, we have difficulties dealing with such situations with geometric methods. On the contrary, topology studies geometric object in a coordinate-free manner. Therefore, methods inspired by topology are suitable for the data which seem meaningless when embedded into any coordinate system. Please see [The topology of viral recombination among coronaviruses](/persistent_homology/README.md) for example.
 * **Summaries are more valuable than individual parameter choices**  
-
+Determining suitable thresholds for proper data analysis outcome is inevitable. To what extent can we beleieve the outcome if only a single theshold results in the desirable result? In other words, if the data analysis methods are too sensitive to parameter choices, the robustness of the outcome remains verification. From the other way around, to identify invariants and to summarize the corresponding behaviors under a change of parameters can be more valuable. From a topological perspective, functoriality of homological invariants may permit us to compute and summarize the invariants. Please see [The topology of viral recombination among coronaviruses](/persistent_homology/README.md) for example.
 
 ### Section 2. Persistence and Homology
 ### Section 3. Imaging: Mapper
