@@ -14,5 +14,6 @@ In physical world, coordinates are naturally defined as long as we are given the
 * **Summaries are more valuable than individual parameter choices**  
 Determining suitable thresholds for proper data analysis outcome is inevitable. To what extent can we beleieve the outcome if only a single theshold results in the desirable result? In other words, if the data analysis methods are too sensitive to parameter choices, the robustness of the outcome remains verification. From the other way around, to identify invariants and to summarize the corresponding behaviors under a change of parameters can be more valuable. From a topological perspective, functoriality of homological invariants may permit us to compute and summarize the invariants. Please see [The topology of viral recombination among coronaviruses](/persistent_homology/README.md) for example.
 
-### Section 2. Persistence and Homology
+### Section 2. Persistent Homology
+#### Study Notes
 ### Section 3. Imaging: Mapper
