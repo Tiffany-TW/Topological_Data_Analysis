@@ -16,4 +16,12 @@ Determining suitable thresholds for proper data analysis outcome is inevitable. 
 
 ### Section 2. Persistent Homology
 #### Study Notes
+#### Takeaways
+![diagram](/paper%20reading/tda_diagram.001.jpeg)
+##### Basic concepts of homotopy
+The notion of homotopy arises in the study of computable invariants of topological spaces. Given two topological spaces, say $X$ and $Y$,  we may want to define an equivalence relation which tells whether $X$ and $Y$ are equivalent. As a result, certain qualitative properties derived from the equivalence relation provides nice computable invariants for topological spaces. Homotopy is one of the concepts defining helpful equivalence relations. The ultimate purpose of homotopy is to define the notion of "homotopy equivalent" for two spaces. If two spaces are homotopy equivalent, several invariants will be derived, such as Betti numbers. In the following contents, mathematical definitions and examples will be provided to illustrate the fundamental concepts of homotopy.
+* **Homotopic**: two continuous maps $f,g:X\rightarrow Y$ are said to be homotopic if there exists a continuous map $H: X \times[0,1] \rightarrow Y $ such that $H(x, 0)=f(x)$ and $H(x,1)=g(x)$.
+##### Basic concepts of homology
+##### Homology groups of simplicial complexes
+##### Persistent homology
 ### Section 3. Imaging: Mapper
