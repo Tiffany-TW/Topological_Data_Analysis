@@ -19,7 +19,7 @@ Determining suitable thresholds for proper data analysis outcome is inevitable. 
 #### Takeaways
 ![diagram](/paper%20reading/tda_diagram.001.jpeg)
 ##### Basic concepts of homotopy
-The notion of homotopy arises in the study of computable invariants of topological spaces. Given two topological spaces, say $X$ and $Y$,  we may want to define an equivalence relation which tells whether $X$ and $Y$ are equivalent. As a result, certain qualitative properties derived from the equivalence relation provides nice computable invariants for topological spaces. Homotopy is one of the concepts defining helpful equivalence relations. The ultimate purpose of homotopy is to define the notion of "homotopy equivalent" for two spaces. If two spaces are homotopy equivalent, several invariants will be derived, such as Betti numbers. In the following contents, mathematical definitions and examples will be provided to illustrate the fundamental concepts of homotopy.
+The notion of homotopy arises in the study of computable invariants of topological spaces. Given two topological spaces, say $X$ and $Y$,  we may want to define an equivalence relation which tells whether $X$ and $Y$ are equivalent. As a result, certain qualitative properties derived from the equivalence relation provides nice computable invariants for topological spaces. Homotopy is one of the concepts defining helpful equivalence relations. The ultimate purpose of homotopy is to define the notion of "homotopy equivalent" for two spaces. If two spaces are homotopy equivalent, several invariants will be derived, such as homology groups and Betti numbers. In the following contents, mathematical definitions and examples will be provided to illustrate the fundamental concepts of homotopy.
 * **Homotopic**: Two continuous maps $f,g:X\rightarrow Y$ are said to be homotopic if there exists a continuous map $H: X \times[0,1] \rightarrow Y $ such that $H(x, 0)=f(x)$ and $H(x,1)=g(x)$.
 * **Homotopy equivalence**: For a continuous map $f:X\rightarrow Y$, if there exists a continuous map $g:Y\rightarrow X$ such that $f\circ g$ is homotopic to the identity map on $Y$ and $g\circ f $ is homotopic to the identity map on $X$.
 * **Homotopy equivalent**:
@@ -30,6 +30,11 @@ Two spaces $X$ and $Y$ are said to be homotopy equivalent if there exists a map 
         * Such $f$ is a homotopy equivalence. For invertible functions, this is trivial. As for non-invertible functions, let us consider $g:\mathbb{R}\rightarrow \mathbb{R}$, where $g(x)=0$. Then, $g\circ f(x)=0,~\forall x \in \mathbb{R}$. Since arbitrary continuous functions, including the identity map, are homotopic to $g=0$, we have $g \circ f$ homotopic to the identity map on $\mathbb{R}$. Similarly, $f \circ g$ is homotopic to the identity map on $\mathbb{R}$. Hence, we proved that $f$ is a homotopy equivalence.
         * The equivalence relation $f$ partitions $\mathbb{R}$ into equivalence classes $\{[0]\}$.
         * Of course, we also derived a trivial statement, which is $\mathbb{R}$ and $\mathbb{R}$ are homotopy equivalent. 
+* **Invariants of homotopy** (Suppose $X$ and $Y$ are homotopy equivalent)
+    * $X$ is path-connected iff $Y$ is
+    * $X$ is simply-connected iff $Y$ is
+    * The kth homology group of $X$ and $Y$ are isomorphic (the concept of homology group will be discussed in the following section)
+    * The kth betti number of $X$ and $Y$ are equal 
 ##### Basic concepts of homology
 ##### Homology groups of simplicial complexes
 ##### Persistent homology
