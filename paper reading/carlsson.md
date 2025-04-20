@@ -39,7 +39,7 @@ Two spaces $X$ and $Y$ are said to be homotopy equivalent if there exists a map 
     * The kth homology group of $X$ and $Y$ are isomorphic (the concept of homology group will be discussed in the following section)
     * The kth Betti number of $X$ and $Y$ are equal 
 ##### Basic concepts of homology
-As Figure 1. shows, the notion of homology groups of a topological space arises due to high computation complexity of homotopy groups. Instead of computing directly the equivalence relation on loops (and higher dimensions), the equivalence relation of two loops is altered by examining whether the union of two loops is equal to the boundary of a surface. From a computational point of view, we focus on the concept of homology groups of simplicail complexes, as shown in the following section.  
+As Figure 1. shows, the notion of homology groups of a topological space arises due to high computation complexity of homotopy groups. Instead of computing directly the equivalence relation on loops (and higher dimensions), the equivalence relation of two loops is altered by examining whether the union of two loops is equal to the boundary of a surface. From a computational point of view, we focus on the concept of homology groups of simplicial complexes, as shown in the following section.  
 ##### Homology groups of simplicial complexes
 ##### Persistent homology
 ### Section 3. Imaging: Mapper
