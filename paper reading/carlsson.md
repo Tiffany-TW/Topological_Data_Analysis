@@ -19,9 +19,9 @@ Determining suitable thresholds for proper data analysis outcome is inevitable. 
 #### Takeaways
 ![diagram](/paper%20reading/tda_diagram.001.jpeg)
 ##### Basic concepts of homotopy
-The notion of homotopy arises in the study of computable invariants of topological spaces. On one hand, homotopy defines meaningful equivalence relations. It formalizes the idea of homotopy equivalence between two spaces. When two spaces are homotopy equivalent, various invariants—such as homotopy groups, homology groups and Betti numbers—can be derived to describe their topological features. On the other hand, for a topological space, one of its qualitative property can be presented by the concept of fundamental groups. The fundamental group of a topological space is the group of the equivalence classes under homotopy of the **loops** contained in the space. It is also an invariant property of topological spaces. Take the alphabet **B** as a topological space for example. Intuitively, it is a space that contains two holes. This is the biggest difference between **B** and **A**.
+The notion of homotopy arises in the study of computable invariants of topological spaces. On one hand, homotopy defines meaningful equivalence relations. It formalizes the idea of homotopy equivalence between two spaces. When two spaces are homotopy equivalent, various invariants—such as homotopy groups, homology groups and Betti numbers—can be derived to describe their topological features. On the other hand, for a topological space, one of its qualitative property can be presented by the concept of homotopy groups. The fundamental group of a topological space is the group of the equivalence classes under homotopy of the **loops (and higher dimension)** contained in the space. It is also an invariant property of topological spaces. Take the alphabet **B** as a topological space for example. Intuitively, it is a space that contains two holes. This is the biggest difference between **B** and **A**.
 
-In the sections that follow, we will introduce the mathematical definitions and illustrative examples necessary to understand the fundamental concepts of homotopy.
+In the sections that follow, we will introduce the mathematical definitions and illustrative examples necessary to understand the basic concepts of homotopy. Due to high computation complexity, we will not introduce the computation of homotopy groups here.
 
 * **Homotopic**: Two continuous maps $f,g:X\rightarrow Y$ are said to be homotopic if there exists a continuous map $H: X \times[0,1] \rightarrow Y $ such that $H(x, 0)=f(x)$ and $H(x,1)=g(x)$.
 * **Homotopy equivalence**: For a continuous map $f:X\rightarrow Y$, if there exists a continuous map $g:Y\rightarrow X$ such that $f\circ g$ is homotopic to the identity map on $Y$ and $g\circ f $ is homotopic to the identity map on $X$.
@@ -39,7 +39,7 @@ Two spaces $X$ and $Y$ are said to be homotopy equivalent if there exists a map 
     * The kth homology group of $X$ and $Y$ are isomorphic (the concept of homology group will be discussed in the following section)
     * The kth Betti number of $X$ and $Y$ are equal 
 ##### Basic concepts of homology
-As Figure 1. shows, the notion of homology groups arises due to high computation complexity of homotopy groups. 
+As Figure 1. shows, the notion of homology groups of a topological space arises due to high computation complexity of homotopy groups. Instead of computing directly the equivalence relation on loops (and higher dimensions), the equivalence relation of two loops is altered by examining whether the union of two loops is equal to the boundary of a surface. From a computational point of view, we focus on the concept of homology groups of simplicail complexes, as shown in the following section.  
 ##### Homology groups of simplicial complexes
 ##### Persistent homology
 ### Section 3. Imaging: Mapper
