@@ -20,7 +20,9 @@ Determining suitable thresholds for proper data analysis outcome is inevitable. 
 ![diagram](/paper%20reading/tda_diagram.001.jpeg)
 ##### Basic concepts of homotopy
 The notion of homotopy arises in the study of computable invariants of topological spaces. Computable invariants are useful qualitative properties of a topological space. To discover invariants of a space, we may consider two topological spaces, say $X$ and $Y$. We may wish to define an equivalence relation that determines whether $X$ and $Y$ are topologically "equivalent." Certain qualitative properties derived from this equivalence relation shall serve as useful computable invariants for topological spaces.
+
 Homotopy is one such concept that defines meaningful equivalence relations. On one hand, it formalizes the idea of homotopy equivalence between two spaces. When two spaces are homotopy equivalent, various invariants—such as homotopy groups, homology groups and Betti numbers—can be derived to describe their topological features. On the other hand, for a topological space, one of its qualitative property can be presented by the concept of fundamental groups. The fundamental group of a topological space is the group of the equivalence classes under homotopy of the **loops** contained in the space. It is also an invariant property of topological spaces. Take the alphabet **B** as a topological space for example. Intuitively, it is a space that contains two holes. This is the biggest difference between **B** and **A**.
+
 In the sections that follow, we will introduce the mathematical definitions and illustrative examples necessary to understand the fundamental concepts of homotopy.
 
 * **Homotopic**: Two continuous maps $f,g:X\rightarrow Y$ are said to be homotopic if there exists a continuous map $H: X \times[0,1] \rightarrow Y $ such that $H(x, 0)=f(x)$ and $H(x,1)=g(x)$.
